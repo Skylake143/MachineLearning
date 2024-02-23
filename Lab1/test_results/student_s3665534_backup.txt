@@ -1,0 +1,27 @@
+test_OneNearestNeighborClassifier (unit_test.TestClass.test_OneNearestNeighborClassifier) ... ERROR
+test_hello (unit_test.TestClass.test_hello) ... ok
+test_roll_array (unit_test.TestClass.test_roll_array) ... ok
+test_surface_class (unit_test.TestClass.test_surface_class) ... ERROR
+
+======================================================================
+ERROR: test_OneNearestNeighborClassifier (unit_test.TestClass.test_OneNearestNeighborClassifier)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/davidwunsch/Documents/VisualStudioCode/UniverstiyLeidenGithub/MachineLearning/ml2024-lab1-Skylake143/unit_test.py", line 61, in test_OneNearestNeighborClassifier
+    train = generate_data()
+            ^^^^^^^^^^^^^
+NameError: name 'generate_data' is not defined
+
+======================================================================
+ERROR: test_surface_class (unit_test.TestClass.test_surface_class)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/davidwunsch/Documents/VisualStudioCode/UniverstiyLeidenGithub/MachineLearning/ml2024-lab1-Skylake143/unit_test.py", line 52, in test_surface_class
+    labels = np.asarray(surface_class(df, 24))
+                        ^^^^^^^^^^^^^
+NameError: name 'surface_class' is not defined
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.004s
+
+FAILED (errors=2)
